@@ -41,13 +41,15 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 ## What was checked
 
 Version 1.0.0 was played on an Android 16 emulator and started on a Galaxy S21 (Android 15), where a
-test build of the same code also played itself for a while with the phone lying flat. **Nobody had
-yet played it by hand on a phone held in the hand** when it was published: tilting on real hardware,
-the sound from a phone's speaker and the vibration are unverified. See the
-[release notes](releases/1.0.0.md) for the known limits.
+test build of the same code also played itself for a while with the phone lying flat. Version 1.0.1
+differs only in its icon and was checked on the emulator. **Nobody had yet played the game by hand on
+a phone held in the hand** when these versions were published: tilting on real hardware, the sound
+from a phone's speaker and the vibration are unverified. See the
+[release notes](releases/1.0.1.md) for the known limits.
 
 ## Version history
 
+- **1.0.1** (November 24, 2026): a better app icon, the three stones of the title screen. [Notes](releases/1.0.1.md)
 - **1.0.0** (November 24, 2026): first public version. [Notes](releases/1.0.0.md)
 
 ## About
