@@ -31,14 +31,16 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 - **Tilt to slide:** the stones slide in one of six directions, the way the phone is tilted. They
   slide without turning over, one whole triangle width at a time, so nothing fits into a single
   gap. New stones come in from the edge only where a gap reaches it. Lay the phone flat and
-  nothing slides at all. Since 1.0.2 the stones wait a second after a clear before they slide:
-  time to tilt the phone another way.
+  nothing slides at all. Since 1.0.2 the stones wait a moment after a clear before they slide:
+  time to tilt the phone another way. Since 1.0.3 the options say how long, from a quarter of a
+  second to a whole one.
 - **Streaks:** whatever sliding brings together vanishes too, and every such clear in a row counts
   more: ×2, ×3, ×4 … Tilting again can keep a streak going. The sound climbs with it, and every
   fifth step is celebrated with fireworks.
-- **Special stones:** the *prism* has every colour, the *glider* lets a line stay where you put it
-  once without a match, a *clamp* holds a stone and its three lines in place, and a *bomb* counts
-  down with every move.
+- **Special stones:** the *prism* has every colour. The *glider*, a grey stone with a crystal, lets
+  a line stay where you put it without a match, one to five times; its crystal shrinks with every
+  use and then the stone is gone. A *clamp* holds a stone and its three lines in place, and a
+  *bomb* counts down with every move.
 - **Two modes:** *Challenge* (clamps and bombs join in as the game goes on; a bomb going off ends
   it) and *Relaxed* (neither, no end).
 - **Three looks** (Gems, Neon, Flat), **three field sizes**, each with its own list of best games.
@@ -50,14 +52,15 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 
 Version 1.0.0 was played on an Android 16 emulator and started on a Galaxy S21 (Android 15), where a
 test build of the same code also played itself for a while with the phone lying flat. Version 1.0.1
-differs only in its icon; 1.0.2 adds the wait before sliding. Both were checked on the emulator, and
-the owner has installed 1.0.1 on a Galaxy S24 through the app. **The game has hardly been played by
+differs only in its icon; 1.0.2 adds the wait before sliding, 1.0.3 the gliders with a crystal. They
+were checked on the emulator, and the owner has installed 1.0.1 on a Galaxy S24 through the app. **The game has hardly been played by
 hand on a phone held in the hand yet:** tilting on real hardware, the sound from a phone's speaker and
 the vibration have not been checked systematically. See the
-[release notes](releases/1.0.2.md) for the known limits.
+[release notes](releases/1.0.3.md) for the known limits.
 
 ## Version history
 
+- **1.0.3** (November 24, 2026): gliders carry a crystal with one to five charges; the wait before sliding can be set in the options. [Notes](releases/1.0.3.md)
 - **1.0.2** (November 24, 2026): after a clear the stones wait a second before they slide, time to tilt the phone another way. [Notes](releases/1.0.2.md)
 - **1.0.1** (November 24, 2026): a better app icon, the three stones of the title screen. [Notes](releases/1.0.1.md)
 - **1.0.0** (November 24, 2026): first public version. [Notes](releases/1.0.0.md)
