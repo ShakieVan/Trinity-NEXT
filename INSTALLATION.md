@@ -58,3 +58,14 @@ Android refuses an update that is signed with another one.
 ## Update Results
 
 Results of real updates through the app are recorded here as they are made.
+
+- **November 24, 2026, to 1.0.0, Android 16 emulator: completed.** An older local test
+  build (0.9.0) found 1.0.0, downloaded it and verified its size, checksum, package,
+  version and signing certificate. Android's installer asked for confirmation. Play
+  Protect then recommended a scan because it did not know the app ("App-Scan
+  empfohlen"); the scan was not requested, and Android discarded this first attempt
+  ("App wurde nicht installiert"). A second start of the installation from the app was
+  completed by Android without a further Play Protect dialog. The installed file
+  matched the public one byte for byte, and the app's reminder led to switching its
+  installation permission off again. This version has not been rated by a Play Protect
+  scan.
