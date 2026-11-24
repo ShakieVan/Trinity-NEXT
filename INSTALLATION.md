@@ -31,6 +31,11 @@ Android's automatic sending of unknown apps to Google switched on, so Google may
 analysed 1.0.0 after it was installed there; that is an assumption, not something that
 was observed.
 
+About ten minutes later, still on that emulator, the update from 1.0.1 to 1.0.2 was not
+blocked: Play Protect again only recommended a scan, which was not requested, and the
+second start of the installation went through. Why 1.0.1 was treated differently is
+not known.
+
 On the owner's Galaxy S24 the update from 1.0.0 to 1.0.1 through the app was installed on
 the same day (the owner's report; what Play Protect showed there was not recorded).
 
@@ -90,3 +95,10 @@ Results of real updates through the app are recorded here as they are made.
   1.0.0 stayed installed.
 - **November 24, 2026, from 1.0.0 to 1.0.1, Galaxy S24: completed** according to the
   app's owner, who updated through the app on their own phone.
+- **November 24, 2026, from 1.0.1 to 1.0.2, Android 16 emulator: completed.** The public
+  1.0.1 found 1.0.2, downloaded and verified it. After the confirmation in Android's
+  installer, Play Protect recommended a scan ("App-Scan empfohlen"); the scan was not
+  requested, and Android discarded this first attempt. A second start of the
+  installation from the app was completed without a further Play Protect dialog. The
+  installed file matched the public one byte for byte, and the app's reminder led to
+  switching its installation permission off again.
