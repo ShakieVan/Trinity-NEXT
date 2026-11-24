@@ -31,7 +31,8 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 - **Tilt to slide:** the stones slide in one of six directions, the way the phone is tilted. They
   slide without turning over, one whole triangle width at a time, so nothing fits into a single
   gap. New stones come in from the edge only where a gap reaches it. Lay the phone flat and
-  nothing slides at all.
+  nothing slides at all. Since 1.0.2 the stones wait a second after a clear before they slide:
+  time to tilt the phone another way.
 - **Streaks:** whatever sliding brings together vanishes too, and every such clear in a row counts
   more: ×2, ×3, ×4 … Tilting again can keep a streak going. The sound climbs with it, and every
   fifth step is celebrated with fireworks.
@@ -49,13 +50,15 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 
 Version 1.0.0 was played on an Android 16 emulator and started on a Galaxy S21 (Android 15), where a
 test build of the same code also played itself for a while with the phone lying flat. Version 1.0.1
-differs only in its icon and was checked on the emulator. **Nobody had yet played the game by hand on
-a phone held in the hand** when these versions were published: tilting on real hardware, the sound
-from a phone's speaker and the vibration are unverified. See the
-[release notes](releases/1.0.1.md) for the known limits.
+differs only in its icon; 1.0.2 adds the wait before sliding. Both were checked on the emulator, and
+the owner has installed 1.0.1 on a Galaxy S24 through the app. **The game has hardly been played by
+hand on a phone held in the hand yet:** tilting on real hardware, the sound from a phone's speaker and
+the vibration have not been checked systematically. See the
+[release notes](releases/1.0.2.md) for the known limits.
 
 ## Version history
 
+- **1.0.2** (November 24, 2026): after a clear the stones wait a second before they slide, time to tilt the phone another way. [Notes](releases/1.0.2.md)
 - **1.0.1** (November 24, 2026): a better app icon, the three stones of the title screen. [Notes](releases/1.0.1.md)
 - **1.0.0** (November 24, 2026): first public version. [Notes](releases/1.0.0.md)
 
