@@ -17,11 +17,25 @@ Granting the first does not mean Google has approved the app.
 
 ## Google Play Protect
 
-Play Protect does not know Trinity-NEXT: it is not distributed through Google Play and
-is new. When you install it, Android may therefore recommend a scan ("App-Scan
-empfohlen") or show a warning. **No scan has been requested for any version so far, so
-Play Protect has not rated the app,** neither as harmless nor as harmful. Nothing here is
-a clearance.
+**Play Protect blocked the update to version 1.0.1 in a test on November 24, 2026.** On an
+Android 16 emulator, during an update from 1.0.0 through the app, it reported "Schädliche
+App blockiert" (harmful app blocked) with the text "Diese App könnte schädlich sein" (this
+app may be harmful). It named no specific behaviour or file. The block was not overridden
+and Play Protect was not switched off; 1.0.0 stayed installed in that test.
+
+What led up to it, on the same emulator and the same day: when 1.0.0 was installed as an
+update a few minutes earlier, Play Protect only recommended a scan because it did not know
+the app ("App-Scan empfohlen"). The scan was not requested, and a second start of the
+installation went through. No scan was requested for 1.0.1 either. The emulator had
+Android's automatic sending of unknown apps to Google switched on, so Google may have
+analysed 1.0.0 after it was installed there; that is an assumption, not something that
+was observed.
+
+On the owner's Galaxy S24 the update from 1.0.0 to 1.0.1 through the app was installed on
+the same day (the owner's report; what Play Protect showed there was not recorded).
+
+The classification is unexplained. It is neither confirmed as a false alarm nor withdrawn
+by Google, and nothing here is a clearance.
 
 What the app asks of Android is listed in [PRIVACY.md](PRIVACY.md): internet access for the
 update check, the permission to ask Android to install its own update, and vibration. Read
@@ -67,5 +81,12 @@ Results of real updates through the app are recorded here as they are made.
   ("App wurde nicht installiert"). A second start of the installation from the app was
   completed by Android without a further Play Protect dialog. The installed file
   matched the public one byte for byte, and the app's reminder led to switching its
-  installation permission off again. This version has not been rated by a Play Protect
-  scan.
+  installation permission off again. No scan was requested for this version.
+- **November 24, 2026, from 1.0.0 to 1.0.1, Android 16 emulator: not completed.** The
+  public 1.0.0 showed "Neue Version 1.0.1 verfügbar" on its title screen, downloaded
+  1.0.1 and verified its size, checksum, package, version and signing certificate.
+  After the confirmation in Android's installer, Google Play Protect blocked the
+  installation ("Schädliche App blockiert", see above). The block was not overridden;
+  1.0.0 stayed installed.
+- **November 24, 2026, from 1.0.0 to 1.0.1, Galaxy S24: completed** according to the
+  app's owner, who updated through the app on their own phone.

@@ -16,6 +16,13 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
 · [Installing and updating](INSTALLATION.md) · [Privacy](PRIVACY.md)
 
+> [!WARNING]
+> **Google Play Protect blocked the update to version 1.0.1 in a test on November 24, 2026**
+> on an Android 16 emulator ("this app may be harmful", without naming a reason, and
+> without a scan having been requested). On the owner's Galaxy S24 the same update was
+> installed. The classification is unexplained and not cleared.
+> Details: [INSTALLATION.md](INSTALLATION.md#google-play-protect).
+
 ## How it plays
 
 - **Move a line:** every stone lies on three lines, one across and two slanted. Drag a stone and
