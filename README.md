@@ -47,18 +47,20 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   nothing slides at all. Since 1.0.2 the stones wait a moment after a clear before they slide:
   time to tilt the phone another way. Since 1.0.3 the options say how long, from a quarter of a
   second to a whole one.
-- **Play in any position:** since 1.0.5 "flat" is whatever position you choose. Before a game
+- **Play in any position:** since 1.0.5 "flat" can be whatever position you choose (with
+  *Gyroscope* or *Car ride* chosen in the options, see the next point). Before a game
   begins or goes on, hold the phone still for five seconds the way you want to play, upright or
   lying down if you like; a dot has to stay inside a circle that long. From then on the stones
   slide towards the edge you tip away from you. A small black arrow in the sign at the top right
   shows the tilt as it is measured; a tap on the sign sets the position anew.
 - **Four ways of measuring the tilt** (since 1.0.6), chosen in the options, where a "?" explains
-  each in a moving picture. *Gyroscope* is the one just described and what everyone starts with.
-  *Gravity* is the plain pull of the earth: nothing to set, but the phone has to lie about level.
-  *Car ride* sets a position too but measures against gravity alone, so a bend in the road or a
-  swivel chair tilts nothing; sideways you lower an edge, which on a steeply held phone is a turn
-  like that of a steering wheel. *Acceleration* takes a quick jerk for a direction and ignores the
-  slow way back; once the field rests, nothing slides until the next jerk.
+  each in a moving picture. *Acceleration* is what everyone starts with since 1.0.7: a quick jerk
+  nudges the stones, they slide that way once, and the slow way back does nothing; every further
+  movement, in a streak too, takes another jerk. Nothing has to be set for it. *Gyroscope* is the
+  one described under "Play in any position". *Gravity* is the plain pull of the earth: nothing
+  to set, but the phone has to lie about level. *Car ride* sets a position too but measures
+  against gravity alone, so a bend in the road or a swivel chair tilts nothing; sideways you
+  lower an edge, which on a steeply held phone is a turn like that of a steering wheel.
 - **Streaks:** whatever sliding brings together vanishes too, and every such clear in a row counts
   more: ×2, ×3, ×4 … Tilting again can keep a streak going. The sound climbs with it, and every
   fifth step is celebrated with fireworks.
@@ -89,14 +91,17 @@ emulator, and the owner has installed 1.0.1 on a Galaxy S24 through the app; the
 back in turned over, fixed in 1.0.4, was found by the owner while playing. Version 1.0.5 adds
 tilting from a position of one's own: a test build showed its calibration on a Galaxy S21 lying
 still, and on the emulator the signed version was calibrated upright and then tipped. Version
-1.0.6 adds Car ride and Acceleration; both were checked on the emulator only, with the virtual
-phone's sensors set by hand. **Tilting from a chosen position, a real car ride and the jerk
-have not been tried with a phone held in the hand yet,** and tilting on real hardware, the sound
+1.0.6 adds Car ride and Acceleration; both were checked on the emulator, with the virtual
+phone's sensors set by hand. The owner then tried Acceleration on a phone, and 1.0.7 changes it
+after that (one jerk for one movement, no pause after a jerk, the default); those changes were
+again checked on the emulator only. **Tilting from a chosen position and a real car ride have
+not been tried with a phone held in the hand yet,** and tilting on real hardware, the sound
 from a phone's speaker and the vibration have not been checked systematically. See the
-[release notes](releases/1.0.6.md) for the known limits.
+[release notes](releases/1.0.7.md) for the known limits.
 
 ## Version history
 
+- **1.0.7** (November 25, 2026): Acceleration is what everyone starts with; one jerk nudges one movement, and nothing holds a second jerk back. [Notes](releases/1.0.7.md)
 - **1.0.6** (November 25, 2026): four ways of measuring the tilt, new among them Car ride (unmoved by bends in the road) and Acceleration (a quick jerk gives the direction); a "?" in the options explains each in a moving picture. [Notes](releases/1.0.6.md)
 - **1.0.5** (November 25, 2026): tilt from a position of your own, set by holding the phone still; a small arrow shows the measured tilt; an outline marks where a dragged stone lay; a glider pays only for a move made with it. [Notes](releases/1.0.5.md)
 - **1.0.4** (November 25, 2026): a mirrored field with one hidden stone for every row, figures (delta, comb, chains, colour storm), clamped stones slide along, 22 badges. [Notes](releases/1.0.4.md)
