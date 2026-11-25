@@ -13,5 +13,6 @@ the app version they show.
 | `game-neon-1.0.4.png` | The same game in the look Neon, the phone lying flat |
 | `calibration-1.0.5.png` | Setting the position before a Relaxed game: dot, circle and count (Android 16 emulator, signed release 1.0.5) |
 | `dragging-1.0.9.png` | A row being dragged: the stone held glows, a white outline marks the place it was taken from (Android 16 emulator, signed release 1.0.9) |
+| `star-1.0.10.png` | A crystal star going off in a Relaxed game: the rays run out from the point over the six lines, the bar above shows the rush (Android 16 emulator, signed release 1.0.10; a frame of a screen recording) |
 | `sensitivity-1.0.8.png` | The options at tilt sensing with the slider for the sensitivity of the jerk; the sign beside it shows a jerk to the right that was just made (Android 16 emulator, signed release 1.0.8) |
 | `tilt-sensing-1.0.6.png` | The sheet behind the "?" in the options that explains the four ways of measuring the tilt; one moment of its moving pictures (Android 16 emulator, signed release 1.0.6) |

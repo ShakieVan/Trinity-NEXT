@@ -18,11 +18,13 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   <img src="media/tilt-sensing-1.0.6.png" width="250" alt="The sheet Lageerkennung of Trinity-NEXT 1.0.6: under the headings Gravitation and Gyroskop a small phone each, one lying tilted with a stone that has slid to its lower edge, one standing upright, with a few sentences below" />
   <img src="media/sensitivity-1.0.8.png" width="250" alt="The options of Trinity-NEXT 1.0.8 at Lageerkennung: the four ways with Beschleunigung chosen, below it a slider labelled Empfindlichkeit from unempfindlich to empfindlich, and beside the label a round sign with an arrow pointing right" />
   <img src="media/dragging-1.0.9.png" width="250" alt="A game of Trinity-NEXT 1.0.9 while a row is dragged: a yellow stone with a bright light around its edges, and two places to its left a white triangular outline over the place it was taken from" />
+  <img src="media/star-1.0.10.png" width="250" alt="A game of Trinity-NEXT 1.0.10 at the moment a crystal star goes off: pale blue rays run from one point in six directions across the field, the stones on them turn white, and in the middle stand the words Kristallstern, +3400 and Kristallrausch: 6 Züge; the bar above reads Rausch ×1 · noch 6" />
   <br />
   <em>Since 1.0.5: hold the phone still for five seconds the way you want to play; that position then counts as flat.
   Since 1.0.6: four ways of measuring the tilt, each explained in a moving picture.
   Since 1.0.8: a slider for how hard a jerk has to be, with a sign that shows each jerk.
-  Since 1.0.9: the stone you hold glows while you drag; the white outline marks where it lay</em>
+  Since 1.0.9: the stone you hold glows while you drag; the white outline marks where it lay.
+  Since 1.0.10: six gliders around one point burst into a crystal star</em>
 </p>
 
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
@@ -69,7 +71,8 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   lower an edge, which on a steeply held phone is a turn like that of a steering wheel.
 - **Streaks:** whatever sliding brings together vanishes too, and every such clear in a row counts
   more: ×2, ×3, ×4 … Tilting again can keep a streak going. The sound climbs with it, and every
-  fifth step is celebrated with fireworks.
+  fifth step is celebrated with fireworks. With your next move it starts over, except in a
+  crystal rush (see Figures).
 - **Special stones:** the *prism* has every colour. The *glider*, a grey stone with a crystal, lets
   a line you drag by it stay where you put it without a match, one to five times; its crystal
   shrinks with every use and then the stone is gone. Dragged by another stone, the line springs
@@ -78,8 +81,11 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 - **Figures:** a *delta*, four stones of one colour forming a large triangle, leaves a glider in
   its middle. A *comb*, six stones around one point, takes the eighteen stones around it along.
   *Chains* of eight or more stones count double, of twelve or more threefold. A bomb cleared
-  together with a prism is a *colour storm*: every stone of its colour goes.
-- **Badges:** 22 of them to earn, for figures, streaks, scores and more.
+  together with a prism is a *colour storm*: every stone of its colour goes. Six gliders around
+  one point are a *crystal star* (since 1.0.10): their crystals burst, and rays in all six
+  directions take every stone on the six lines through that point along. After it comes the
+  *crystal rush*: for six moves the streak does not start over with your move but keeps climbing.
+- **Badges:** 23 of them to earn, for figures, streaks, scores and more.
 - **Two modes:** *Challenge* (clamps and bombs join in as the game goes on; a bomb going off ends
   it) and *Relaxed* (neither, no end).
 - **Three looks** (Gems, Neon, Flat), **three field sizes**, each with its own list of best games.
@@ -102,13 +108,16 @@ phone's sensors set by hand. The owner then tried Acceleration on a phone, and 1
 after that (one jerk for one movement, no pause after a jerk, the default). The owner tried
 that too, and 1.0.8 follows from it (the way back is no jerk, the opposite direction takes
 more, a slider for the sensitivity). Each time the changes themselves were checked on the
-emulator only; the same goes for the glow of 1.0.9. **Tilting from a chosen position and a real
+emulator only; the same goes for the glow of 1.0.9. The hexagons of gliders that 1.0.10 turns
+into a crystal star were found by the owner while playing; the star and the rush were checked on
+the emulator only. **Tilting from a chosen position and a real
 car ride have not been tried with a phone held in the hand yet,** and tilting on real hardware, the sound from a phone's speaker
 and the vibration have not been checked systematically. See the
-[release notes](releases/1.0.9.md) for the known limits.
+[release notes](releases/1.0.10.md) for the known limits.
 
 ## Version history
 
+- **1.0.10** (November 25, 2026): six gliders around one point burst into a crystal star that clears the six lines through that point, and a crystal rush keeps the streak for six moves; 23 badges. [Notes](releases/1.0.10.md)
 - **1.0.9** (November 25, 2026): the stone you drag a line by glows. [Notes](releases/1.0.9.md)
 - **1.0.8** (November 25, 2026): bringing the phone back is no jerk any more, the opposite direction takes a harder one, and a slider sets the sensitivity. [Notes](releases/1.0.8.md)
 - **1.0.7** (November 25, 2026): Acceleration is what everyone starts with; one jerk nudges one movement, and nothing holds a second jerk back. [Notes](releases/1.0.7.md)
