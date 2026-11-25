@@ -16,9 +16,11 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 <p align="center">
   <img src="media/calibration-1.0.5.png" width="250" alt="Before a game in Trinity-NEXT 1.0.5: a panel titled Lage festlegen over the dimmed field, with a dot in the middle of a circle whose rim fills with the time, and the number 5 below it" />
   <img src="media/tilt-sensing-1.0.6.png" width="250" alt="The sheet Lageerkennung of Trinity-NEXT 1.0.6: under the headings Gravitation and Gyroskop a small phone each, one lying tilted with a stone that has slid to its lower edge, one standing upright, with a few sentences below" />
+  <img src="media/sensitivity-1.0.8.png" width="250" alt="The options of Trinity-NEXT 1.0.8 at Lageerkennung: the four ways with Beschleunigung chosen, below it a slider labelled Empfindlichkeit from unempfindlich to empfindlich, and beside the label a round sign with an arrow pointing right" />
   <br />
   <em>Since 1.0.5: hold the phone still for five seconds the way you want to play; that position then counts as flat.
-  Since 1.0.6: four ways of measuring the tilt, each explained in a moving picture</em>
+  Since 1.0.6: four ways of measuring the tilt, each explained in a moving picture.
+  Since 1.0.8: a slider for how hard a jerk has to be, with a sign that shows each jerk</em>
 </p>
 
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
@@ -56,8 +58,9 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   shows the tilt as it is measured; a tap on the sign sets the position anew.
 - **Four ways of measuring the tilt** (since 1.0.6), chosen in the options, where a "?" explains
   each in a moving picture. *Acceleration* is what everyone starts with since 1.0.7: a quick jerk
-  nudges the stones, they slide that way once, and the slow way back does nothing; every further
-  movement, in a streak too, takes another jerk. Nothing has to be set for it. *Gyroscope* is the
+  nudges the stones, they slide that way once, and bringing the phone back to where it was never
+  counts; every further movement, in a streak too, takes another jerk. A slider says how hard a
+  jerk has to be (since 1.0.8). Nothing has to be set before a game. *Gyroscope* is the
   one described under "Play in any position". *Gravity* is the plain pull of the earth: nothing
   to set, but the phone has to lie about level. *Car ride* sets a position too but measures
   against gravity alone, so a bend in the road or a swivel chair tilts nothing; sideways you
@@ -94,14 +97,17 @@ tilting from a position of one's own: a test build showed its calibration on a G
 still, and on the emulator the signed version was calibrated upright and then tipped. Version
 1.0.6 adds Car ride and Acceleration; both were checked on the emulator, with the virtual
 phone's sensors set by hand. The owner then tried Acceleration on a phone, and 1.0.7 changes it
-after that (one jerk for one movement, no pause after a jerk, the default); those changes were
-again checked on the emulator only. **Tilting from a chosen position and a real car ride have
-not been tried with a phone held in the hand yet,** and tilting on real hardware, the sound
-from a phone's speaker and the vibration have not been checked systematically. See the
-[release notes](releases/1.0.7.md) for the known limits.
+after that (one jerk for one movement, no pause after a jerk, the default). The owner tried
+that too, and 1.0.8 follows from it (the way back is no jerk, the opposite direction takes
+more, a slider for the sensitivity). Each time the changes themselves were checked on the
+emulator only. **Tilting from a chosen position and a real car ride have not been tried with
+a phone held in the hand yet,** and tilting on real hardware, the sound from a phone's speaker
+and the vibration have not been checked systematically. See the
+[release notes](releases/1.0.8.md) for the known limits.
 
 ## Version history
 
+- **1.0.8** (November 25, 2026): bringing the phone back is no jerk any more, the opposite direction takes a harder one, and a slider sets the sensitivity. [Notes](releases/1.0.8.md)
 - **1.0.7** (November 25, 2026): Acceleration is what everyone starts with; one jerk nudges one movement, and nothing holds a second jerk back. [Notes](releases/1.0.7.md)
 - **1.0.6** (November 25, 2026): four ways of measuring the tilt, new among them Car ride (unmoved by bends in the road) and Acceleration (a quick jerk gives the direction); a "?" in the options explains each in a moving picture. [Notes](releases/1.0.6.md)
 - **1.0.5** (November 25, 2026): tilt from a position of your own, set by holding the phone still; a small arrow shows the measured tilt; an outline marks where a dragged stone lay; a glider pays only for a move made with it. [Notes](releases/1.0.5.md)
