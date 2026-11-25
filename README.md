@@ -34,8 +34,9 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 > **Google Play Protect blocked the update to version 1.0.1 in a test on November 24, 2026,
 > and the updates to versions 1.0.7 and 1.0.8 on November 25, 2026,** all on an Android 16
 > emulator ("this app may be harmful", without naming a reason, and without a scan having
-> been requested). The updates in between were not blocked there, and on the owner's Galaxy
-> S24 the update to 1.0.1 was installed. The classification is unexplained and not cleared.
+> been requested). The updates in between and the two after them, to 1.0.9 and 1.0.10, were
+> not blocked there, and on the owner's Galaxy S24 the update to 1.0.1 was installed. The
+> classification is unexplained and not cleared.
 > Details: [INSTALLATION.md](INSTALLATION.md#google-play-protect).
 
 ## How it plays

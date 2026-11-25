@@ -71,6 +71,10 @@ was not blocked: Play Protect only recommended a scan, which was not requested, 
 second start of the installation went through. Whether that has anything to do with the
 appeal sent eleven minutes earlier is not known; 1.0.9 itself was submitted nowhere.
 
+An hour after that the update from 1.0.9 to 1.0.10 went the same way on that emulator: a scan
+recommendation, no scan requested, installed at the second start. 1.0.10 was submitted
+nowhere either.
+
 The classification is unexplained. It is neither confirmed as a false alarm nor withdrawn
 by Google, and nothing here is a clearance.
 
@@ -173,6 +177,13 @@ Results of real updates through the app are recorded here as they are made.
   The block was not overridden; 1.0.7 stayed installed.
 - **November 25, 2026, from 1.0.8 to 1.0.9, Android 16 emulator: completed.** The public
   1.0.8 showed "Neue Version 1.0.9 verfügbar", downloaded 1.0.9 and verified it. After the
+  confirmation in Android's installer, Play Protect recommended a scan ("App-Scan
+  empfohlen"); the scan was not requested, and Android discarded this first attempt. A
+  second start of the installation from the app was completed without a further Play
+  Protect dialog. The installed file matched the public one byte for byte, and the app's
+  reminder led to switching its installation permission off again.
+- **November 25, 2026, from 1.0.9 to 1.0.10, Android 16 emulator: completed.** The public
+  1.0.9 showed "Neue Version 1.0.10 verfügbar", downloaded 1.0.10 and verified it. After the
   confirmation in Android's installer, Play Protect recommended a scan ("App-Scan
   empfohlen"); the scan was not requested, and Android discarded this first attempt. A
   second start of the installation from the app was completed without a further Play
