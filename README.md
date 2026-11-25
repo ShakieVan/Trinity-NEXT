@@ -13,6 +13,12 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   <em>Trinity-NEXT 1.0.4 · Screenshots from an Android 16 emulator, November 25, 2026</em>
 </p>
 
+<p align="center">
+  <img src="media/calibration-1.0.5.png" width="250" alt="Before a game in Trinity-NEXT 1.0.5: a panel titled Lage festlegen over the dimmed field, with a dot in the middle of a circle whose rim fills with the time, and the number 5 below it" />
+  <br />
+  <em>Since 1.0.5: hold the phone still for five seconds the way you want to play; that position then counts as flat</em>
+</p>
+
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
 · [Installing and updating](INSTALLATION.md) · [Privacy](PRIVACY.md)
 
@@ -27,7 +33,8 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 
 - **Move a line:** every stone lies on three lines, one across and two slanted. Drag a stone and
   its line glides along as one piece; it comes to rest a whole number of triangle widths further.
-  If nothing matches, it springs back.
+  If nothing matches, it springs back. Since 1.0.5 a white outline shows where your stone lay
+  while you drag: bring it back there and no move is made.
 - **Hidden stones:** at each end of a row half a triangle is missing to the edge of the screen.
   The two halves are one stone outside the field, and its colour shows in both jags as if through
   frosted glass. It does not count until it comes in: pull it out in any direction, or let it
@@ -38,12 +45,19 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   nothing slides at all. Since 1.0.2 the stones wait a moment after a clear before they slide:
   time to tilt the phone another way. Since 1.0.3 the options say how long, from a quarter of a
   second to a whole one.
+- **Play in any position:** since 1.0.5 "flat" is whatever position you choose. Before a game
+  begins or goes on, hold the phone still for five seconds the way you want to play, upright or
+  lying down if you like; a dot has to stay inside a circle that long. From then on the stones
+  slide towards the edge you tip away from you. A small black arrow in the sign at the top right
+  shows the tilt as it is measured; a tap on the sign sets the position anew. The options switch
+  back to plain gravity, where there is nothing to set but the phone has to lie about level.
 - **Streaks:** whatever sliding brings together vanishes too, and every such clear in a row counts
   more: ×2, ×3, ×4 … Tilting again can keep a streak going. The sound climbs with it, and every
   fifth step is celebrated with fireworks.
 - **Special stones:** the *prism* has every colour. The *glider*, a grey stone with a crystal, lets
-  a line stay where you put it without a match, one to five times; its crystal shrinks with every
-  use and then the stone is gone. A *clamp* keeps the three lines of its stone from being dragged
+  a line you drag by it stay where you put it without a match, one to five times; its crystal
+  shrinks with every use and then the stone is gone. Dragged by another stone, the line springs
+  back as usual and the crystal is not spent (since 1.0.5). A *clamp* keeps the three lines of its stone from being dragged
   (the stone still slides when you tilt), and a *bomb* counts down with every move.
 - **Figures:** a *delta*, four stones of one colour forming a large triangle, leaves a glider in
   its middle. A *comb*, six stones around one point, takes the eighteen stones around it along.
@@ -64,13 +78,16 @@ test build of the same code also played itself for a while with the phone lying 
 differs only in its icon; 1.0.2 adds the wait before sliding, 1.0.3 the gliders with a crystal, 1.0.4
 the mirrored field with its hidden stones, the figures and the badges. They were checked on the
 emulator, and the owner has installed 1.0.1 on a Galaxy S24 through the app; the stone that came
-back in turned over, fixed in 1.0.4, was found by the owner while playing. **Version 1.0.4 has not
-been on a phone held in the hand yet,** and tilting on real hardware, the sound from a phone's
-speaker and the vibration have not been checked systematically. See the
-[release notes](releases/1.0.4.md) for the known limits.
+back in turned over, fixed in 1.0.4, was found by the owner while playing. Version 1.0.5 adds
+tilting from a position of one's own: a test build showed its calibration on a Galaxy S21 lying
+still, and on the emulator the signed version was calibrated upright and then tipped. **Tilting
+from a chosen position has not been tried with a phone held in the hand yet,** and tilting on
+real hardware, the sound from a phone's speaker and the vibration have not been checked
+systematically. See the [release notes](releases/1.0.5.md) for the known limits.
 
 ## Version history
 
+- **1.0.5** (November 25, 2026): tilt from a position of your own, set by holding the phone still; a small arrow shows the measured tilt; an outline marks where a dragged stone lay; a glider pays only for a move made with it. [Notes](releases/1.0.5.md)
 - **1.0.4** (November 25, 2026): a mirrored field with one hidden stone for every row, figures (delta, comb, chains, colour storm), clamped stones slide along, 22 badges. [Notes](releases/1.0.4.md)
 - **1.0.3** (November 24, 2026): gliders carry a crystal with one to five charges; the wait before sliding can be set in the options. [Notes](releases/1.0.3.md)
 - **1.0.2** (November 24, 2026): after a clear the stones wait a second before they slide, time to tilt the phone another way. [Notes](releases/1.0.2.md)
