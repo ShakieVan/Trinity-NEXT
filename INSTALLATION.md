@@ -64,7 +64,12 @@ more could not process the file type, which is not a passed check.
 [Report](https://www.virustotal.com/gui/file/9fd769f266e60f1664669ca26c2f40372bee15c4d3a5f517e8f109254c91e4f0).
 That result does not change what Play Protect shows on a device. The same day an appeal for
 1.0.8 was filed with Google through its form for Play Protect appeals. Google states there
-that decisions are final and that it does not reply; no change has been observed.
+that decisions are final and that it does not reply.
+
+Half an hour after the block of 1.0.8, still on that emulator, the update from 1.0.8 to 1.0.9
+was not blocked: Play Protect only recommended a scan, which was not requested, and the
+second start of the installation went through. Whether that has anything to do with the
+appeal sent eleven minutes earlier is not known; 1.0.9 itself was submitted nowhere.
 
 The classification is unexplained. It is neither confirmed as a false alarm nor withdrawn
 by Google, and nothing here is a clearance.
@@ -166,3 +171,10 @@ Results of real updates through the app are recorded here as they are made.
   checksum, package, version and signing certificate. After the confirmation in Android's
   installer, Google Play Protect blocked the installation again ("Schädliche App blockiert").
   The block was not overridden; 1.0.7 stayed installed.
+- **November 25, 2026, from 1.0.8 to 1.0.9, Android 16 emulator: completed.** The public
+  1.0.8 showed "Neue Version 1.0.9 verfügbar", downloaded 1.0.9 and verified it. After the
+  confirmation in Android's installer, Play Protect recommended a scan ("App-Scan
+  empfohlen"); the scan was not requested, and Android discarded this first attempt. A
+  second start of the installation from the app was completed without a further Play
+  Protect dialog. The installed file matched the public one byte for byte, and the app's
+  reminder led to switching its installation permission off again.
