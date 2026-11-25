@@ -15,8 +15,10 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 
 <p align="center">
   <img src="media/calibration-1.0.5.png" width="250" alt="Before a game in Trinity-NEXT 1.0.5: a panel titled Lage festlegen over the dimmed field, with a dot in the middle of a circle whose rim fills with the time, and the number 5 below it" />
+  <img src="media/tilt-sensing-1.0.6.png" width="250" alt="The sheet Lageerkennung of Trinity-NEXT 1.0.6: under the headings Gravitation and Gyroskop a small phone each, one lying tilted with a stone that has slid to its lower edge, one standing upright, with a few sentences below" />
   <br />
-  <em>Since 1.0.5: hold the phone still for five seconds the way you want to play; that position then counts as flat</em>
+  <em>Since 1.0.5: hold the phone still for five seconds the way you want to play; that position then counts as flat.
+  Since 1.0.6: four ways of measuring the tilt, each explained in a moving picture</em>
 </p>
 
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
@@ -49,8 +51,14 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   begins or goes on, hold the phone still for five seconds the way you want to play, upright or
   lying down if you like; a dot has to stay inside a circle that long. From then on the stones
   slide towards the edge you tip away from you. A small black arrow in the sign at the top right
-  shows the tilt as it is measured; a tap on the sign sets the position anew. The options switch
-  back to plain gravity, where there is nothing to set but the phone has to lie about level.
+  shows the tilt as it is measured; a tap on the sign sets the position anew.
+- **Four ways of measuring the tilt** (since 1.0.6), chosen in the options, where a "?" explains
+  each in a moving picture. *Gyroscope* is the one just described and what everyone starts with.
+  *Gravity* is the plain pull of the earth: nothing to set, but the phone has to lie about level.
+  *Car ride* sets a position too but measures against gravity alone, so a bend in the road or a
+  swivel chair tilts nothing; sideways you lower an edge, which on a steeply held phone is a turn
+  like that of a steering wheel. *Acceleration* takes a quick jerk for a direction and ignores the
+  slow way back; once the field rests, nothing slides until the next jerk.
 - **Streaks:** whatever sliding brings together vanishes too, and every such clear in a row counts
   more: ×2, ×3, ×4 … Tilting again can keep a streak going. The sound climbs with it, and every
   fifth step is celebrated with fireworks.
@@ -80,13 +88,16 @@ the mirrored field with its hidden stones, the figures and the badges. They were
 emulator, and the owner has installed 1.0.1 on a Galaxy S24 through the app; the stone that came
 back in turned over, fixed in 1.0.4, was found by the owner while playing. Version 1.0.5 adds
 tilting from a position of one's own: a test build showed its calibration on a Galaxy S21 lying
-still, and on the emulator the signed version was calibrated upright and then tipped. **Tilting
-from a chosen position has not been tried with a phone held in the hand yet,** and tilting on
-real hardware, the sound from a phone's speaker and the vibration have not been checked
-systematically. See the [release notes](releases/1.0.5.md) for the known limits.
+still, and on the emulator the signed version was calibrated upright and then tipped. Version
+1.0.6 adds Car ride and Acceleration; both were checked on the emulator only, with the virtual
+phone's sensors set by hand. **Tilting from a chosen position, a real car ride and the jerk
+have not been tried with a phone held in the hand yet,** and tilting on real hardware, the sound
+from a phone's speaker and the vibration have not been checked systematically. See the
+[release notes](releases/1.0.6.md) for the known limits.
 
 ## Version history
 
+- **1.0.6** (November 25, 2026): four ways of measuring the tilt, new among them Car ride (unmoved by bends in the road) and Acceleration (a quick jerk gives the direction); a "?" in the options explains each in a moving picture. [Notes](releases/1.0.6.md)
 - **1.0.5** (November 25, 2026): tilt from a position of your own, set by holding the phone still; a small arrow shows the measured tilt; an outline marks where a dragged stone lay; a glider pays only for a move made with it. [Notes](releases/1.0.5.md)
 - **1.0.4** (November 25, 2026): a mirrored field with one hidden stone for every row, figures (delta, comb, chains, colour storm), clamped stones slide along, 22 badges. [Notes](releases/1.0.4.md)
 - **1.0.3** (November 24, 2026): gliders carry a crystal with one to five charges; the wait before sliding can be set in the options. [Notes](releases/1.0.3.md)
