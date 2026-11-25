@@ -17,10 +17,12 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   <img src="media/calibration-1.0.5.png" width="250" alt="Before a game in Trinity-NEXT 1.0.5: a panel titled Lage festlegen over the dimmed field, with a dot in the middle of a circle whose rim fills with the time, and the number 5 below it" />
   <img src="media/tilt-sensing-1.0.6.png" width="250" alt="The sheet Lageerkennung of Trinity-NEXT 1.0.6: under the headings Gravitation and Gyroskop a small phone each, one lying tilted with a stone that has slid to its lower edge, one standing upright, with a few sentences below" />
   <img src="media/sensitivity-1.0.8.png" width="250" alt="The options of Trinity-NEXT 1.0.8 at Lageerkennung: the four ways with Beschleunigung chosen, below it a slider labelled Empfindlichkeit from unempfindlich to empfindlich, and beside the label a round sign with an arrow pointing right" />
+  <img src="media/dragging-1.0.9.png" width="250" alt="A game of Trinity-NEXT 1.0.9 while a row is dragged: a yellow stone with a bright light around its edges, and two places to its left a white triangular outline over the place it was taken from" />
   <br />
   <em>Since 1.0.5: hold the phone still for five seconds the way you want to play; that position then counts as flat.
   Since 1.0.6: four ways of measuring the tilt, each explained in a moving picture.
-  Since 1.0.8: a slider for how hard a jerk has to be, with a sign that shows each jerk</em>
+  Since 1.0.8: a slider for how hard a jerk has to be, with a sign that shows each jerk.
+  Since 1.0.9: the stone you hold glows while you drag; the white outline marks where it lay</em>
 </p>
 
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
@@ -39,7 +41,7 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 - **Move a line:** every stone lies on three lines, one across and two slanted. Drag a stone and
   its line glides along as one piece; it comes to rest a whole number of triangle widths further.
   If nothing matches, it springs back. Since 1.0.5 a white outline shows where your stone lay
-  while you drag: bring it back there and no move is made.
+  while you drag: bring it back there and no move is made. Since 1.0.9 the stone you hold glows.
 - **Hidden stones:** at each end of a row half a triangle is missing to the edge of the screen.
   The two halves are one stone outside the field, and its colour shows in both jags as if through
   frosted glass. It does not count until it comes in: pull it out in any direction, or let it
@@ -100,13 +102,14 @@ phone's sensors set by hand. The owner then tried Acceleration on a phone, and 1
 after that (one jerk for one movement, no pause after a jerk, the default). The owner tried
 that too, and 1.0.8 follows from it (the way back is no jerk, the opposite direction takes
 more, a slider for the sensitivity). Each time the changes themselves were checked on the
-emulator only. **Tilting from a chosen position and a real car ride have not been tried with
-a phone held in the hand yet,** and tilting on real hardware, the sound from a phone's speaker
+emulator only; the same goes for the glow of 1.0.9. **Tilting from a chosen position and a real
+car ride have not been tried with a phone held in the hand yet,** and tilting on real hardware, the sound from a phone's speaker
 and the vibration have not been checked systematically. See the
-[release notes](releases/1.0.8.md) for the known limits.
+[release notes](releases/1.0.9.md) for the known limits.
 
 ## Version history
 
+- **1.0.9** (November 25, 2026): the stone you drag a line by glows. [Notes](releases/1.0.9.md)
 - **1.0.8** (November 25, 2026): bringing the phone back is no jerk any more, the opposite direction takes a harder one, and a slider sets the sensitivity. [Notes](releases/1.0.8.md)
 - **1.0.7** (November 25, 2026): Acceleration is what everyone starts with; one jerk nudges one movement, and nothing holds a second jerk back. [Notes](releases/1.0.7.md)
 - **1.0.6** (November 25, 2026): four ways of measuring the tilt, new among them Car ride (unmoved by bends in the road) and Acceleration (a quick jerk gives the direction); a "?" in the options explains each in a moving picture. [Notes](releases/1.0.6.md)

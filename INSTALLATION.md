@@ -62,7 +62,9 @@ After that, on November 25, 2026, the unchanged public APK of 1.0.8 was submitte
 VirusTotal: none of 65 scanners reported anything, Google's among them ("Undetected"); nine
 more could not process the file type, which is not a passed check.
 [Report](https://www.virustotal.com/gui/file/9fd769f266e60f1664669ca26c2f40372bee15c4d3a5f517e8f109254c91e4f0).
-That result does not change what Play Protect shows on a device.
+That result does not change what Play Protect shows on a device. The same day an appeal for
+1.0.8 was filed with Google through its form for Play Protect appeals. Google states there
+that decisions are final and that it does not reply; no change has been observed.
 
 The classification is unexplained. It is neither confirmed as a false alarm nor withdrawn
 by Google, and nothing here is a clearance.
