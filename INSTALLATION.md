@@ -58,6 +58,12 @@ block was not overridden, no scan was requested, and 1.0.7 stayed installed.
 On the owner's Galaxy S24 the update from 1.0.0 to 1.0.1 through the app was installed on
 the same day (the owner's report; what Play Protect showed there was not recorded).
 
+After that, on November 25, 2026, the unchanged public APK of 1.0.8 was submitted to
+VirusTotal: none of 65 scanners reported anything, Google's among them ("Undetected"); nine
+more could not process the file type, which is not a passed check.
+[Report](https://www.virustotal.com/gui/file/9fd769f266e60f1664669ca26c2f40372bee15c4d3a5f517e8f109254c91e4f0).
+That result does not change what Play Protect shows on a device.
+
 The classification is unexplained. It is neither confirmed as a false alarm nor withdrawn
 by Google, and nothing here is a clearance.
 
