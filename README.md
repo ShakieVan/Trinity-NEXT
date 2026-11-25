@@ -6,11 +6,11 @@ leaves the field at one end comes back in at the other. Bring three or more ston
 together and they vanish. Then tilt the phone: the rest slide into the gaps the way you tilt it.
 
 <p align="center">
-  <img src="media/title-1.0.0.png" width="250" alt="Title screen of Trinity-NEXT: three amber stones in a row above the name, below them the buttons Herausforderung and Entspannt" />
-  <img src="media/game-gems-1.0.0.png" width="250" alt="A game in the look Gems: a field of cut triangular stones in five colours with a few gaps, the score and the direction arrow above it" />
-  <img src="media/game-neon-1.0.0.png" width="250" alt="The same game in the look Neon: glowing triangular outlines on black" />
+  <img src="media/title-1.0.4.png" width="250" alt="Title screen of Trinity-NEXT: three amber stones in a row above the name, below them the buttons Herausforderung and Entspannt and a button for the badges" />
+  <img src="media/game-gems-1.0.4.png" width="250" alt="A game in the look Gems: a field of cut triangular stones in five colours with a few gaps, its side edges jagged alike on both sides, with the colours of the hidden stones glowing softly in the jags" />
+  <img src="media/game-neon-1.0.4.png" width="250" alt="The same game in the look Neon: glowing triangular outlines on black" />
   <br />
-  <em>Trinity-NEXT 1.0.0 · Screenshots from an Android 16 emulator, November 24, 2026</em>
+  <em>Trinity-NEXT 1.0.4 · Screenshots from an Android 16 emulator, November 25, 2026</em>
 </p>
 
 **[Download the latest version](https://github.com/ShakieVan/Trinity-NEXT/releases/latest)**
@@ -28,6 +28,10 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 - **Move a line:** every stone lies on three lines, one across and two slanted. Drag a stone and
   its line glides along as one piece; it comes to rest a whole number of triangle widths further.
   If nothing matches, it springs back.
+- **Hidden stones:** at each end of a row half a triangle is missing to the edge of the screen.
+  The two halves are one stone outside the field, and its colour shows in both jags as if through
+  frosted glass. It does not count until it comes in: pull it out in any direction, or let it
+  slide in. That way no stone ever comes back in turned over.
 - **Tilt to slide:** the stones slide in one of six directions, the way the phone is tilted. They
   slide without turning over, one whole triangle width at a time, so nothing fits into a single
   gap. New stones come in from the edge only where a gap reaches it. Lay the phone flat and
@@ -39,8 +43,13 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
   fifth step is celebrated with fireworks.
 - **Special stones:** the *prism* has every colour. The *glider*, a grey stone with a crystal, lets
   a line stay where you put it without a match, one to five times; its crystal shrinks with every
-  use and then the stone is gone. A *clamp* holds a stone and its three lines in place, and a
-  *bomb* counts down with every move.
+  use and then the stone is gone. A *clamp* keeps the three lines of its stone from being dragged
+  (the stone still slides when you tilt), and a *bomb* counts down with every move.
+- **Figures:** a *delta*, four stones of one colour forming a large triangle, leaves a glider in
+  its middle. A *comb*, six stones around one point, takes the eighteen stones around it along.
+  *Chains* of eight or more stones count double, of twelve or more threefold. A bomb cleared
+  together with a prism is a *colour storm*: every stone of its colour goes.
+- **Badges:** 22 of them to earn, for figures, streaks, scores and more.
 - **Two modes:** *Challenge* (clamps and bombs join in as the game goes on; a bomb going off ends
   it) and *Relaxed* (neither, no end).
 - **Three looks** (Gems, Neon, Flat), **three field sizes**, each with its own list of best games.
@@ -52,14 +61,17 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 
 Version 1.0.0 was played on an Android 16 emulator and started on a Galaxy S21 (Android 15), where a
 test build of the same code also played itself for a while with the phone lying flat. Version 1.0.1
-differs only in its icon; 1.0.2 adds the wait before sliding, 1.0.3 the gliders with a crystal. They
-were checked on the emulator, and the owner has installed 1.0.1 on a Galaxy S24 through the app. **The game has hardly been played by
-hand on a phone held in the hand yet:** tilting on real hardware, the sound from a phone's speaker and
-the vibration have not been checked systematically. See the
-[release notes](releases/1.0.3.md) for the known limits.
+differs only in its icon; 1.0.2 adds the wait before sliding, 1.0.3 the gliders with a crystal, 1.0.4
+the mirrored field with its hidden stones, the figures and the badges. They were checked on the
+emulator, and the owner has installed 1.0.1 on a Galaxy S24 through the app; the stone that came
+back in turned over, fixed in 1.0.4, was found by the owner while playing. **Version 1.0.4 has not
+been on a phone held in the hand yet,** and tilting on real hardware, the sound from a phone's
+speaker and the vibration have not been checked systematically. See the
+[release notes](releases/1.0.4.md) for the known limits.
 
 ## Version history
 
+- **1.0.4** (November 25, 2026): a mirrored field with one hidden stone for every row, figures (delta, comb, chains, colour storm), clamped stones slide along, 22 badges. [Notes](releases/1.0.4.md)
 - **1.0.3** (November 24, 2026): gliders carry a crystal with one to five charges; the wait before sliding can be set in the options. [Notes](releases/1.0.3.md)
 - **1.0.2** (November 24, 2026): after a clear the stones wait a second before they slide, time to tilt the phone another way. [Notes](releases/1.0.2.md)
 - **1.0.1** (November 24, 2026): a better app icon, the three stones of the title screen. [Notes](releases/1.0.1.md)

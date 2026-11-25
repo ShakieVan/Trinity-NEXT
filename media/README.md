@@ -8,3 +8,6 @@ the app version they show.
 | `title-1.0.0.png` | Title screen (Android 16 emulator, signed release 1.0.0) |
 | `game-gems-1.0.0.png` | A Challenge game after eight moves in the look Gems, large stones |
 | `game-neon-1.0.0.png` | The same game in the look Neon |
+| `title-1.0.4.png` | Title screen with the button for the badges (Android 16 emulator, signed release 1.0.4) |
+| `game-gems-1.0.4.png` | A Relaxed game after six moves on the mirrored field of nine columns, look Gems |
+| `game-neon-1.0.4.png` | The same game in the look Neon, the phone lying flat |
