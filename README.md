@@ -25,10 +25,11 @@ together and they vanish. Then tilt the phone: the rest slide into the gaps the 
 · [Installing and updating](INSTALLATION.md) · [Privacy](PRIVACY.md)
 
 > [!WARNING]
-> **Google Play Protect blocked the update to version 1.0.1 in a test on November 24, 2026**
-> on an Android 16 emulator ("this app may be harmful", without naming a reason, and
-> without a scan having been requested). On the owner's Galaxy S24 the same update was
-> installed. The classification is unexplained and not cleared.
+> **Google Play Protect blocked the update to version 1.0.1 in a test on November 24, 2026,
+> and the update to version 1.0.7 on November 25, 2026,** both on an Android 16 emulator
+> ("this app may be harmful", without naming a reason, and without a scan having been
+> requested). The updates in between were not blocked there, and on the owner's Galaxy S24
+> the update to 1.0.1 was installed. The classification is unexplained and not cleared.
 > Details: [INSTALLATION.md](INSTALLATION.md#google-play-protect).
 
 ## How it plays

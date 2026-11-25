@@ -40,6 +40,17 @@ was not requested, and the second start of the installation went through. The up
 1.0.4 to 1.0.5 and from 1.0.5 to 1.0.6 later that day went the same way. Why 1.0.1 was
 treated differently is not known.
 
+**Play Protect blocked the update to version 1.0.7 as well, in a test on November 25, 2026.**
+On the same emulator the public 1.0.6, freshly installed, found 1.0.7, downloaded and
+verified it. After the confirmation in Android's installer Play Protect again reported
+"Schädliche App blockiert" with the text "Diese App könnte schädlich sein"; under its
+details: "Wenn du diese App installierst, kann sie dein Gerät gefährden" (if you install
+this app it may endanger your device) and the way "Trotzdem installieren" (install anyway).
+The message was closed with "Ok". The block was not overridden, no scan was requested, and
+1.0.6 stayed installed. A few minutes earlier the same file had been installed on that
+emulator from a computer for checking, without any message. Why 1.0.7 is treated like 1.0.1
+and unlike the five versions in between is not known.
+
 On the owner's Galaxy S24 the update from 1.0.0 to 1.0.1 through the app was installed on
 the same day (the owner's report; what Play Protect showed there was not recorded).
 
@@ -133,3 +144,8 @@ Results of real updates through the app are recorded here as they are made.
   second start of the installation from the app was completed without a further Play
   Protect dialog. The installed file matched the public one byte for byte, and the app's
   reminder led to switching its installation permission off again.
+- **November 25, 2026, from 1.0.6 to 1.0.7, Android 16 emulator: not completed.** The public
+  1.0.6 showed "Neue Version 1.0.7 verfügbar", downloaded 1.0.7 and verified its size,
+  checksum, package, version and signing certificate. After the confirmation in Android's
+  installer, Google Play Protect blocked the installation ("Schädliche App blockiert", see
+  above). The block was not overridden; 1.0.6 stayed installed.
