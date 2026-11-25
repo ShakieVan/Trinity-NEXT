@@ -51,6 +51,10 @@ The message was closed with "Ok". The block was not overridden, no scan was requ
 emulator from a computer for checking, without any message. Why 1.0.7 is treated like 1.0.1
 and unlike the five versions in between is not known.
 
+**Twenty minutes later the update to version 1.0.8 was blocked in the same way,** from the
+public 1.0.7 on the same emulator, with the same message. It was closed with "Ok" again; the
+block was not overridden, no scan was requested, and 1.0.7 stayed installed.
+
 On the owner's Galaxy S24 the update from 1.0.0 to 1.0.1 through the app was installed on
 the same day (the owner's report; what Play Protect showed there was not recorded).
 
@@ -149,3 +153,8 @@ Results of real updates through the app are recorded here as they are made.
   checksum, package, version and signing certificate. After the confirmation in Android's
   installer, Google Play Protect blocked the installation ("Schädliche App blockiert", see
   above). The block was not overridden; 1.0.6 stayed installed.
+- **November 25, 2026, from 1.0.7 to 1.0.8, Android 16 emulator: not completed.** The public
+  1.0.7 showed "Neue Version 1.0.8 verfügbar", downloaded 1.0.8 and verified its size,
+  checksum, package, version and signing certificate. After the confirmation in Android's
+  installer, Google Play Protect blocked the installation again ("Schädliche App blockiert").
+  The block was not overridden; 1.0.7 stayed installed.
