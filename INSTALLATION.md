@@ -34,8 +34,10 @@ was observed.
 About ten minutes later, still on that emulator, the update from 1.0.1 to 1.0.2 was not
 blocked: Play Protect again only recommended a scan, which was not requested, and the
 second start of the installation went through. Another ten minutes later the update from
-1.0.2 to 1.0.3 was installed at the first attempt, with no Play Protect dialog at all. Why
-1.0.1 was treated differently is not known.
+1.0.2 to 1.0.3 was installed at the first attempt, with no Play Protect dialog at all. On
+November 25, 2026, the update from 1.0.3 to 1.0.4 met the scan recommendation again; the scan
+was not requested, and the second start of the installation went through. Why 1.0.1 was
+treated differently is not known.
 
 On the owner's Galaxy S24 the update from 1.0.0 to 1.0.1 through the app was installed on
 the same day (the owner's report; what Play Protect showed there was not recorded).
@@ -108,3 +110,11 @@ Results of real updates through the app are recorded here as they are made.
   installer it was installed at the first attempt; no Play Protect dialog appeared. The
   installed file matched the public one byte for byte, and the app's reminder led to
   switching its installation permission off again.
+- **November 25, 2026, from 1.0.3 to 1.0.4, Android 16 emulator: completed.** The public
+  1.0.3 showed "Neue Version 1.0.4 verfügbar", downloaded 1.0.4 and verified it. After the
+  confirmation in Android's installer, Play Protect recommended a scan ("App-Scan
+  empfohlen"); the scan was not requested, and Android discarded this first attempt. A
+  second start of the installation from the app was completed without a further Play
+  Protect dialog. The installed file matched the public one byte for byte, and the app's
+  reminder led to switching its installation permission off again. A Relaxed game begun in
+  1.0.3 went on afterwards on the new field, without its last column and its last row.
